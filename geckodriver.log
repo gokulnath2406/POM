@@ -1,0 +1,28 @@
+1678471933897	geckodriver	INFO	Listening on 127.0.0.1:51915
+1678471937010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileQaveKj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678471942053	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678471942154	Marionette	INFO	Listening on port 51925
+Read port: 51925
+WebDriver BiDi listening on ws://127.0.0.1:51916
+Read port: 51925
+Read port: 51925
+Read port: 51925
+Read port: 51925
+Read port: 51925
+1678471950313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileQaveKj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51916/devtools/browser/220500ce-922c-4db1-9f8b-b05de10a68d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1678471986278	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1678472027473	Marionette	INFO	Stopped listening on port 51925
+Dynamically enable window occlusion 1
